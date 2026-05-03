@@ -2,6 +2,7 @@
     --bodyText: #ffffff;
     --linkBackground: #702552;
     --linkText: #ffffff;
+    --accentLink: #ffd166;
     --profileBackground: #390029;
     --defaultAvatarBackground: #000000;
     --profileTitleText: #ffffff;
@@ -51,6 +52,17 @@ body {
     font-size: 16px;
     font-weight: 500;
     opacity: 0.9;
+}
+
+.profile-inline-link {
+    color: var(--accentLink);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.profile-inline-link:hover {
+    color: #ffe29a;
 }
 
 .social-links {
